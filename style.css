@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+}
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.navBar{
+    background-color: rgb(86, 99, 218);
+    display: flex;
+    padding: 10px;
+  
+}
+.navBar p{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 10%;
+}
+.navBar input{
+    color: gray;
+    margin-left: 10%;
+    background-color: darkgray;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px;
+    
+}
+.mainPart{
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.menu a{
+    text-decoration:none;
+    color: darkblue;
+}
+.avatar{
+    background-color: white;
+    border-radius: 7px;
+    width: 250px;
+    padding: 15px;
+}
+.avatar img{
+    width: 100%;
+}
+.avatar button{
+    margin-top: 15px;
+    width: 100%;
+    background-color: aliceblue;
+    color: darkblue;
+    font-size: 18px;
+    padding: 5px; 
+    border: 1px solid aliceblue;
+}
+.friends{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 7px;
+    width: 250px;
+    padding: 15px;
+}
+.friendsText{
+    display: flex;
+    color: darkblue;
+}
+.friendsText p{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.friensdPhoto{ 
+    display: flex;
+     flex-wrap: wrap;
+    
+}
+.row1{
+    display: flex;
+    width: 90%;
+    
+}
+.row1Elem{
+    width: 80px;
+    padding: 10px;
+      
+    
+}
+.row1Elem img{
+    width: 100%;
+    border-radius: 50%;
+}
+.myInfo{
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+}
+.myInfo1{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.myInfo1 p{
+    color: darkblue ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.myInfo1 span{
+    color: darkgray;
+    font-size: 16px;
+    
+}
+.myPhotos{
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.myNews{
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+    margin-top: 20px;
+    height: auto;
+}
+.ferst{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.ferst p{
+    color: darkgray;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.myInfo2{
+    display: flex;
+
+}
+.second{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px ;
+}
+.second p{
+    color: darkblue;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.myInfo3 p{
+    color: darkblue;
+    font-size: 24px;
+    text-align: center;
+}
+.myInfo3 span{
+    color: darkgrey;
+    font-size: 14px;
+}
+.myInfo3{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}   
+.myPhotos1{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-around;
+}
+.myPhotos1 img{
+    width: 22%;
+   
+}
+.myNews1{
+    display: flex;
+}
+.text1{
+    color: darkblue ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text1 span{
+    color: darkgray;
+    font-size: 16px;
+}
+.text1{
+    margin-top: 15px;
+}
+.newsNew{
+    margin-top: 15px;
+}
